@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Study OS</h1>
+
+        <h2 id="todayTotal">0h 00m / 10h</h2>
+
+        <div class="progress">
+            <div id="fill"></div>
+        </div>
+
+<div id="celebration">
+
+</div>
+
+        <input
+            id="slotName"
+            placeholder="Enter subject..."
+        >
+
+        <br><br>
+
+        <button onclick="startTimer()">
+            ▶ Start
+        </button>
+
+        <button onclick="pauseTimer()">
+            ⏸ Pause
+        </button>
+
+        <button onclick="endTimer()">
+            ⏹ End
+        </button>
+
+<button onclick="deleteLast()">
+🗑 Delete Last
+</button>
+
+        <div class="timer-wrapper">
+
+<div class="circle">
+
+<div id="timer">
+
+00:00:00
+
+</div>
+
+</div>
+
+</div>
+
+        <div id="slots">
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
