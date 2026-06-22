@@ -172,7 +172,7 @@ let percent =
 
 Math.min(
 
-total/20,
+total/36000,
 
 1
 
